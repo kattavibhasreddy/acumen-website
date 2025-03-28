@@ -331,7 +331,7 @@ const step = async (direction: 'next' | 'prev' = 'next') => {
 
           gsap.set(getCardContent(prv), {
               x: xNew,
-              y: offsetTop + cardHeight - 100,
+              y: offsetTop + cardHeight - 200,
               opacity: 1,
               zIndex: 40,
           });
